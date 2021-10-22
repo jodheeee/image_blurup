@@ -3,7 +3,7 @@ import "./image.scss";
 function Image(props) {
   const [loadingChk, setLoadingChk] = useState(false);
   return (
-    <>
+    <div className="imageBox">
       <img
         className="image temp"
         alt={props.alt}
@@ -19,7 +19,7 @@ function Image(props) {
         alt={props.alt}
         src={props.src}
       />
-    </>
+    </div>
   );
 };
 
