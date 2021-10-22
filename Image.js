@@ -22,4 +22,5 @@ function Image(props) {
     </>
   );
 };
+
 export default Image;
